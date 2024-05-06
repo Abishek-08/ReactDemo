@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Mform{
+    height: auto;
+    width: 550px;
+    border: 2px solid #ff0000;
+    border-radius: 0px 30px 30px 0px;
+    margin-left: 440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header{
+    background-color:#03DAC6 ;
+    border-radius: 0px 30px 30px 0px;
+    color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+    background-color:skyblue;
 }
-
-.App-link {
-  color: #61dafb;
+.error{
+    color: #ff0000;
 }
+.tbl{
+    height: auto;
+    width: 750px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    border-radius: 0px 30px 30px 30px;
+}
+#findall{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 80%;
+    height: auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    
+}
+#fheader{
+    background-color:greenyellow;
+    color: black;
+
+}
+#ubtl{
+    height: auto;
+    width: 900px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    border-radius: 0px 30px 30px 30px;
 }
