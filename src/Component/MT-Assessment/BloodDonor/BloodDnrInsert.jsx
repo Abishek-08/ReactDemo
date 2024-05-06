@@ -2,8 +2,6 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import Form from "react-bootstrap/Form";
 import { Button, Card } from "react-bootstrap";
-
-import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { useNavigate } from "react-router-dom";
 import DonorServ from "../Service/DonorServ";
 
